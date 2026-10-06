@@ -1,0 +1,17 @@
+# Levanta API-KONNECT en PostgreSQL 16 con esquema y datos de prueba cargados.
+#   docker compose up -d
+#   docker compose exec db psql -U apikonnect -d apikonnect -f /demo/demo_pitch.sql
+services:
+  db:
+    image: postgres:16
+    container_name: apikonnect-db
+    environment:
+      POSTGRES_USER: apikonnect
+      POSTGRES_PASSWORD: apikonnect
+      POSTGRES_DB: apikonnect
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./database/01_esquema.sql:/docker-entrypoint-initdb.d/01_esquema.sql:ro
+      - ./database/02_datos_prueba.sql:/docker-entrypoint-initdb.d/02_datos_prueba.sql:ro
+      - ./database:/demo:ro
