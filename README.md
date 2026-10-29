@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🐝 API-KONNECT
+# API-KONNECT
 
 ### Inteligencia para cada colmena
 
@@ -26,12 +26,12 @@ En el campo, la información está dispersa: el apicultor no sabe a tiempo que u
 
 API-KONNECT reúne en una sola base de datos toda la cadena apícola:
 
-| | Capacidad | Pregunta que responde |
-|---|---|---|
-| 🌡️ | **Salud de la colmena** | ¿Qué colmenas tienen temperatura o humedad fuera de rango, y a quién llamo? |
-| 🍯 | **Trazabilidad** | Este frasco, ¿de qué lote, cosecha, apiario y apicultor salió? |
-| 🛒 | **Comercio directo** | ¿Cuánto vende cada productor, en qué municipio y de qué producto? |
-| 🤝 | **Economía solidaria** | ¿Qué cooperativas, comunidades y entidades financieras apoyan a cada productor? |
+| Capacidad | Pregunta que responde |
+|---|---|
+| **Salud de la colmena** | ¿Qué colmenas tienen temperatura o humedad fuera de rango, y a quién llamo? |
+| **Trazabilidad** | Este frasco, ¿de qué lote, cosecha, apiario y apicultor salió? |
+| **Comercio directo** | ¿Cuánto vende cada productor, en qué municipio y de qué producto? |
+| **Economía solidaria** | ¿Qué cooperativas, comunidades y entidades financieras apoyan a cada productor? |
 
 ## El sistema en números
 

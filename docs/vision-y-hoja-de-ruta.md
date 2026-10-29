@@ -10,12 +10,12 @@ API-KONNECT se construye por etapas. La base de datos que está en este reposito
 
 | Etapa | Estado | Qué incluye |
 |---|---|---|
-| **1. Modelo conceptual y lógico** | ✅ Hecho | Diagrama E-R (Chen), normalización 1FN → 3FN, diccionario de datos |
-| **2. Modelo físico** | ✅ Hecho | DDL en PostgreSQL, MySQL y SQL Server; diccionario físico; datos semiestructurados (JSONB) |
-| **3. Manipulación y calidad** | ✅ Hecho | ~10.000 registros de prueba, consultas con JOIN y agregación, vista de ventas, consultas parametrizadas, pruebas ACID |
-| **4. Flujo de datos (ETL)** | 🔜 Siguiente | Captura desde sensores IoT, archivos y APIs abiertas (IDEAM, SIOC); transformación en Python / AWS Lambda; orquestación con Airflow |
-| **5. Almacenamiento mixto** | 🔜 | PostgreSQL (estructurado), MongoDB (semiestructurado), Amazon S3 (fotos, videos, audios de la colmena) |
-| **6. Consumo y analítica** | 🔭 Visión | Tableros (QuickSight), reportes de producción y salud, modelos predictivos |
+| **1. Modelo conceptual y lógico** | Hecho | Diagrama E-R (Chen), normalización 1FN → 3FN, diccionario de datos |
+| **2. Modelo físico** | Hecho | DDL en PostgreSQL, MySQL y SQL Server; diccionario físico; datos semiestructurados (JSONB) |
+| **3. Manipulación y calidad** | Hecho | ~10.000 registros de prueba, consultas con JOIN y agregación, vista de ventas, consultas parametrizadas, pruebas ACID |
+| **4. Flujo de datos (ETL)** | Siguiente | Captura desde sensores IoT, archivos y APIs abiertas (IDEAM, SIOC); transformación en Python / AWS Lambda; orquestación con Airflow |
+| **5. Almacenamiento mixto** | Pendiente | PostgreSQL (estructurado), MongoDB (semiestructurado), Amazon S3 (fotos, videos, audios de la colmena) |
+| **6. Consumo y analítica** | Visión | Tableros (QuickSight), reportes de producción y salud, modelos predictivos |
 
 ## Por qué el modelo actual ya está listo para lo que viene
 
